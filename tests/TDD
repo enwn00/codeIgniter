@@ -1,0 +1,43 @@
+TDD 개발주기
+- RED (Write Failing Test) : 실패하는 Test Code 를 선으로 작성
+- Green (Make Test Pass) : Test Code를 성공시키기 위한 실제 Code 를 작성
+- Yellow (Refactor) : 중복 Code 제거, 일반화 등의 refactoring 을 수행
+
+여기서 중요한 것은 실패하는 코드를 완성할 때까지 실제 코드를 작성하지 않는 것
+실패하는 테스트를 통과할 정도의 최소 실제 코드를 작성해야 하는 것.
+실제 코드에 대해 기대되는 바를 보다 명확하게 정의함으로써 불필요한 설계를 피할 수 있고,
+정확한 요구 사항에 집중할 수 있다.
+
+보통의 개발 방식
+- 요구사항 분석
+- 설계
+- 개발
+- 테스트
+- 배포
+여기서 발생하는 문제점
+1. 소비자의 요구사항이 처음부터 명확하지 않을 수 있다.
+2. 따라서 처음부터 완벽한 설계는 어렵다.
+3. 자체 버그 검출 능력 저하 또는 소스코드의 품질이 저하될 수 있다.
+4. 자체 테스트 비용이 증가할 수 있다.
+
+
+https://wooaoe.tistory.com/33
+
+
+
+단위(Unit)테스트
+프로그래머 관점에서 작성됩니다. 클래스의 특정 메소드 (또는 유닛)가 일련의 특정 태스크를 수행하도록 보장됩니다.
+기능(Feature)테스트
+사용자의 관점에서 작성됩니다. 그들은 사용자가 기대하는대로 시스템이 작동하는지 확인합니다.
+
+
+https://velog.io/@kossiecoder/PHPSTORM%EC%97%90%EC%84%9C-%EB%8B%A8%EC%B6%95%ED%82%A4%EB%A1%9C-phpunit-%EC%8B%A4%ED%96%89%ED%95%98%EA%B8%B0-sgk5z6qszj
+
+
+https://blog.cloudflare.com/using-guzzle-and-phpunit-for-rest-api-testing/
+
+
+https://ridicorp.com/story/php-unittest/
+
+
+https://medium.com/@SlackBeck/%ED%85%8C%EC%8A%A4%ED%8A%B8-%EC%8A%A4%ED%85%81-test-stub-%EC%9D%B4%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80-ff9c8840c1b0#.68pavd8tg
