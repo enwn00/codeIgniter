@@ -10,7 +10,7 @@ use App\Dto\ApiResponse;
 class Board extends CI_Controller
 {
 
-    // http://www.ci-project.co:8080/phpApi/Board/list
+    // http://www.codeigniter.co:8080/phpApi/Board/list
     public function list(){
         $id = (int)$this->input->get("id");
         $response = new ApiResponse();
