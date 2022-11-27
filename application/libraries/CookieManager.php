@@ -11,7 +11,7 @@ class CookieManager
     private $name;
     private $value = '';
     private $expires;     // CI_Input->set_cookie() 의 time() 을 뺀 값으로 할당할 것
-    private $domain = 'ci-project.co';
+    private $domain = 'codeigniter.co';
     private $path = '/';
     private $prefix;
     private $secure = false;     // SSL(Secure Sockets Layer)을 사용하여 쿠키를 전송할지, 즉 HTTPS로만 쿠키를 전송할지 여부

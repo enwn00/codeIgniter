@@ -11,7 +11,7 @@
 		"source": "https://github.com/bcit-ci/CodeIgniter"
 	},
 	"require": {
-		"php": ">=5.2.4",
+		"php": ">=7.3",
 		"predis/predis": "^1.1",
 		"ext-json": "*",
 		"phpunit/phpunit": "^9.5",

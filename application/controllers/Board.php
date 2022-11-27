@@ -10,7 +10,7 @@ use App\Service\Board\DataProvider\BoardRedisSeedingProvider;
 
 class Board extends CI_Controller
 {
-    // http://www.ci-project.co:8080/board/1
+    // http://www.codeigniter.co:8080/board/1
 //    public function detail(int $id){
 //        $manager = BoardService::getInstance();
 //
@@ -88,7 +88,7 @@ class Board extends CI_Controller
         $this->load->view('/layout/layout', $aConstruct);
     }
 //
-//    // http://www.ci-project.co:8080/board/watched
+//    // http://www.codeigniter.co:8080/board/watched
 //    public function watched(){
 //        echo '<pre>';
 //        print_r(BoardService::getInstance()
@@ -99,7 +99,7 @@ class Board extends CI_Controller
 //        exit;
 //    }
 //
-//    // http://www.ci-project.co:8080/board/delete
+//    // http://www.codeigniter.co:8080/board/delete
 //    public function delete(int $id = 0){
 //        $result = BoardService::getInstance()
 //            ->driver('one', (new App\Service\Board\Dto\Board)

@@ -8,7 +8,7 @@ class UserAgentTest extends TestCase
 
     public function setUp(): void
     {
-        $this->http = new GuzzleHttp\Client(['base_uri' => 'http://www.ci-project.co:8080/']);
+        $this->http = new GuzzleHttp\Client(['base_uri' => 'http://www.codeigniter.co:8080/']);
     }
 
     public function tearDown(): void
